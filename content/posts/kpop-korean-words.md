@@ -2,12 +2,13 @@
 title: "5 Essential Korean Words You Always Hear in K-Pop Songs"
 date: "2026-07-16"
 image: "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?q=80&w=1000"
+summary: "Ever wondered what those repeated Korean words in your favorite K-Pop track"
 author: "Admin"
 tags: ["K-Wave", "K-Pop", "Korean Culture"]
 ---
 
 # 🎵 Decode Your Favorite K-Pop Songs!
-![K-Pop Concert Image](https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?q=80&w=1000)
+
 If you are a K-Pop fan, you've probably noticed certain Korean words showing up in almost every song. Understanding these key cultural words will make listening to K-Pop twice as fun! 
 
 Here are **5 essential Korean words** frequently used in K-Pop lyrics and what they really mean.
