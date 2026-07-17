@@ -1,3 +1,5 @@
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ficworld76-ship-it.github.io%2Fad-blog&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 # Insight Blog — 광고 삽입형 블로그 (Next.js App Router)
 
 Google AdSense 광고 삽입이 가능한 카드형 블로그 웹사이트입니다. Next.js App Router + TypeScript + Tailwind CSS + 마크다운(gray-matter) 기반 파일 CMS로 구성되어 있습니다.
