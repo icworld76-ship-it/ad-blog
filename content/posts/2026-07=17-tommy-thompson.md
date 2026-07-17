@@ -23,8 +23,8 @@ AI 활용 설정
 2015년, 수년 간의 도피 끝에 결국 체포된 그는 법대에 섰습니다. 판사는 "숨겨둔 금화 500개의 위치를 밝히라"고 명령했지만, 토미 톰슨은 끝까지 입을 다물었습니다.
 결국 그는 '법정모독죄'로 수감되었습니다. 통상 법정모독죄는 금방 풀려나지만, 그는 지옥 같은 감옥 생활 속에서도 끝까지 입을 열지 않았고 10년이 넘는 세월 동안 감옥에 복역했습니다.
 
-https://github.com/icworld76-ship-it/ad-blog/blob/main/public/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jpg?raw=true
 
+https://github.com/icworld76-ship-it/ad-blog/blob/main/public/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jpg?raw=true
 
 
 최근 석방, 네티즌들의 반응은?
