@@ -1,6 +1,6 @@
 # "10년 감옥 살고 650억 보물 챙긴다?" 131년 된 난파선을 찾은 토미 톰슨의 미친 실화
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/c4295586-4856-4646-a4ce-2cdb74948985" />
+<img width="600" alt="image" src="https://raw.githubusercontent.com/icworld76-ship-it/ad-blog/main/public/11xp-treasure-02-articleLarge.jpg" />
 
 11년 감옥살이 대신 5,000만 달러 상당의 금을 선택한 남자
 
