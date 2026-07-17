@@ -5,7 +5,8 @@ AI 활용 설정
 최근 해외 커뮤니티와 SNS에서 "10년 감옥 살고 나와서 엄청난 부자가 된 사람"이라는 밈으로 뜨겁게 달아오른 한 남자의 실화가 있습니다.
 영화보다 더 영화 같은 심해 보물선 탐사가 '토미 톰슨(Tommy Thompson)'의 놀라운 사건을 정리해 드립니다!
 
-<img width="1732" height="1397" alt="image" src="https://github.com/user-attachments/assets/f0da7e52-9f6b-4b23-81b8-d24202c39d91" />
+<img width="600" height="502" alt="image" src="https://github.com/user-attachments/assets/e4295586-4856-4646-a4ce-2edb74948985" />
+
 
 131년 전 침몰한 황금선을 찾아내다
 때는 1988년, 해양 공학자였던 토미 톰슨은 1857년 침몰한 수송선 'SS 센트럴 아메리카호'의 위치를 마침내 찾아냈습니다.
