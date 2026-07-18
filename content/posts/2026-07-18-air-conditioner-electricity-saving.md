@@ -2,6 +2,7 @@
 title: "에어컨 전기세 절약 방법 7가지 (2026년 최신)"
 description: "에어컨 전기세를 절약하는 가장 쉬운 방법 7가지를 소개합니다. 적정 온도 설정부터 선풍기 활용, 필터 청소까지 실생활에서 바로 실천할 수 있는 절전 팁을 확인해 보세요."
 date: "2026-07-18"
+thumbnail: "/thumbnails/air-conditioner-electricity-saving.jpg"
 tags:
   - 에어컨
   - 전기세
