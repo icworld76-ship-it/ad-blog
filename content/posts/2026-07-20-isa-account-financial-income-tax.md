@@ -1,6 +1,6 @@
 ---
 title: "ISA 계좌가 금융소득 종합과세를 줄여줄까?｜절세 효과와 한계 완벽 정리"
-image: "/thumbnails/isa-account-tax.png"
+thumbnail: "/thumbnails/isa-account-tax.png"
 date: "2026-07-20"
 description: "ISA 계좌가 금융소득 종합과세를 줄여준다는 말은 사실일까요? ISA의 비과세 혜택, 분리과세, 절세 효과와 한계까지 쉽게 정리했습니다."
 tags:
