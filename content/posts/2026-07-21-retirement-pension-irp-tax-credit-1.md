@@ -1,5 +1,6 @@
 ---
 layout: post
+thumbnail: "/thumbnails/2026-07-21-retirement-pension-irp-tax-credit-1.png"
 title: "연금저축·IRP 절세 효과 완벽 정리 ①｜세액공제가 중요한 진짜 이유"
 date: 2026-07-21
 categories: [Finance, Tax]
