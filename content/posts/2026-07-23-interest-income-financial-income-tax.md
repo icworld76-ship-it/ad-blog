@@ -1,6 +1,6 @@
 ---
 title: "이자소득은 어디까지 합산될까? | 예금·적금·CMA·채권까지 총정리"
-thumbnail: "/thumbnails/2026-07-23-interest-income-financial-income-tax.md"
+thumbnail: "/thumbnails/2026-07-23-interest-income-financial-income-tax.png"
 date: "2026-07-23"
 description: "금융소득 종합과세를 계산할 때 합산되는 이자소득의 범위를 정리했습니다. 예금과 적금뿐 아니라 CMA, 채권, RP, 외화예금에서 발생한 소득까지 쉽게 알아봅니다."
 tags:
