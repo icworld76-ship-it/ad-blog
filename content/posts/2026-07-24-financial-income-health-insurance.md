@@ -1,6 +1,6 @@
 ---
 title: "금융소득 때문에 건강보험료가 오르는 이유 | 배당금과 이자도 영향을 받을까?"
-thumbnail: "/thumbnails/2026-07-24-financial-income-health-insurance.png"
+thumbnail: "/thumbnails/financial-income-health-insurance.png"
 date: "2026-07-24"
 description: "금융소득이 늘면 건강보험료도 함께 오를 수 있습니다. 직장가입자, 지역가입자, 피부양자별 차이와 미리 준비하는 절세 방법까지 쉽게 정리했습니다."
 tags:
