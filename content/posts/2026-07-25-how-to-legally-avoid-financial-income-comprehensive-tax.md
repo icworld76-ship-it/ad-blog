@@ -1,4 +1,3 @@
-```markdown
 ---
 title: "금융소득 종합과세를 피하는 합법적인 방법 7가지"
 thumbnail: "/thumbnails/07-financial-income-tax-legal-strategies.png"
