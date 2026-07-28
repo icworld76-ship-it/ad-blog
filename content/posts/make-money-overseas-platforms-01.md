@@ -1,6 +1,6 @@
 ---
 title: "해외 플랫폼으로 돈 버는 방법① | Substack은 왜 전 세계 창작자들을 열광하게 만들었을까?"
-thumbnail: "/thumbnails/overseas-platforms-01.png"
+thumbnail: "/thumbnails/make-money-overseas-platforms-01.png"
 date: "2026-07-28"
 description: "광고 없이도 글로 돈을 벌 수 있을까? Substack이 만든 새로운 수익 구조와 한국 창작자에게도 기회가 될 수 있는 이유를 알아본다."
 tags: ["Substack", "Creator Economy", "Newsletter", "Online Business", "Side Hustle", "Digital Creator"]
