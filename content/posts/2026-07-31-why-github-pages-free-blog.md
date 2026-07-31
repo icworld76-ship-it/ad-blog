@@ -1,6 +1,6 @@
 ---
 title: "GitHub Pages로 무료 블로그를 시작해야 하는 이유"
-thumbnail: "/thumbnails/2026-07-31-github-pages-free-blog.png"
+thumbnail: "/thumbnails/2026-07-31-why-github-pages-free-blog.png"
 date: "2026-07-31"
 description: "GitHub Pages는 왜 무료 블로그 플랫폼으로 주목받을까? 비용, 속도, SEO, 관리 편의성까지 직접 운영해 본 경험을 바탕으로 장단점을 정리했다."
 tags: ["GitHub Pages","GitHub","무료 블로그","정적 사이트","Jekyll","SEO","블로그"]
