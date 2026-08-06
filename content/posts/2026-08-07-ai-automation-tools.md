@@ -1,6 +1,6 @@
 ---
 layout: post
-thumbnail: "/thumbnails/2026-08-07-ai-automation-tools-1.png"
+thumbnail: "/thumbnails/2026-08-07-ai-automation-tools.png"
 title: "2026년 무자본 AI 자동화 툴 TOP 3 추천 : 실전 수익화 가이드"
 date: 2026-08-07
 description: "초보자도 무자본으로 시작하는 2026년 최신 AI 자동화 툴 3가지와 이를 활용한 실전 수익화 노하우를 쉽게 정리했습니다."
