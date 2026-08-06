@@ -1,6 +1,6 @@
 ---
 title: "2026년 구글 애드센스 승인 한 번에 받는 5가지 핵심 전략"
-thumbnail: "/thumbnails/2026-08-06-adsense_approval_guide_thumbnail.png"
+thumbnail: "/thumbnails/2026-08-06-adsense-approval-guide-thumbnail.png"
 date: "2026-08-06"
 description: "서버비 0원 Vercel 블로그로 구글 애드센스 승인을 단 한 번에 통과하는 2026년 최신 실전 전략 5가지를 완벽 정리했습니다."
 tags:
