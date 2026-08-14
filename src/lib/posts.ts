@@ -39,21 +39,39 @@ export function getAllPostSlugs(): string[] {
 export function getAllPosts(): PostMeta[] {
   const slugs = getAllPostSlugs();
 
-  const posts = slugs.map((slug) => {
-    const fullPath = path.join(POSTS_DIRECTORY, `${slug}.md`);
-    const fileContents = fs.readFileSync(fullPath, "utf8");
-    const { data } = matter(fileContents);
+  const posts = slugs
+    .map((slug) => {
+      try {
+        const fullPath = path.join(POSTS_DIRECTORY, `${slug}.md`);
+        if (!fs.existsSync(fullPath)) return null;
 
-    return {
-      slug,
-      title: data.title ?? slug,
-      date: data.date ?? "",
-      summary: data.summary ?? "",
-      thumbnail: data.thumbnail ?? "/thumbnails/default.svg",
-      author: data.author ?? "Admin",
-      tags: data.tags ?? [],
-    } satisfies PostMeta;
-  });
+        const fileContents = fs.readFileSync(fullPath, "utf8");
+        const { data } = matter(fileContents);
+
+        // Date 객체를 문자열로 안전하게 변환
+        let dateStr = "";
+        if (data.date) {
+          if (data.date instanceof Date) {
+            dateStr = data.date.toISOString().split("T")[0];
+          } else {
+            dateStr = String(data.date);
+          }
+        }
+
+        return {
+          slug,
+          title: data.title ? String(data.title) : slug,
+          date: dateStr,
+          summary: data.summary ? String(data.summary) : "",
+          thumbnail: data.thumbnail ? String(data.thumbnail) : "/thumbnails/default.svg",
+          author: data.author ? String(data.author) : "Admin",
+          tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
+        } satisfies PostMeta;
+      } catch {
+        return null;
+      }
+    })
+    .filter((p): p is PostMeta => p !== null);
 
   return posts.sort((a, b) => (a.date < b.date ? 1 : -1));
 }
@@ -67,23 +85,36 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
 
   if (!fs.existsSync(fullPath)) return null;
 
-  const fileContents = fs.readFileSync(fullPath, "utf8");
-  const { data, content } = matter(fileContents);
+  try {
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const { data, content } = matter(fileContents);
 
-  const processedContent = await remark()
-    .use(remarkGfm)
-    .use(remarkHtml)
-    .process(content);
-  const contentHtml = processedContent.toString();
+    const processedContent = await remark()
+      .use(remarkGfm)
+      .use(remarkHtml)
+      .process(content);
+    const contentHtml = processedContent.toString();
 
-  return {
-    slug,
-    title: data.title ?? slug,
-    date: data.date ?? "",
-    summary: data.summary ?? "",
-    thumbnail: data.thumbnail ?? "/thumbnails/default.svg",
-    author: data.author ?? "Admin",
-    tags: data.tags ?? [],
-    contentHtml,
-  };
+    let dateStr = "";
+    if (data.date) {
+      if (data.date instanceof Date) {
+        dateStr = data.date.toISOString().split("T")[0];
+      } else {
+        dateStr = String(data.date);
+      }
+    }
+
+    return {
+      slug,
+      title: data.title ? String(data.title) : slug,
+      date: dateStr,
+      summary: data.summary ? String(data.summary) : "",
+      thumbnail: data.thumbnail ? String(data.thumbnail) : "/thumbnails/default.svg",
+      author: data.author ? String(data.author) : "Admin",
+      tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
+      contentHtml,
+    };
+  } catch {
+    return null;
+  }
 }
