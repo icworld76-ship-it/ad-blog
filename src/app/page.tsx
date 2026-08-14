@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PostCard from "@/components/PostCard";
+import ViewTogglePosts from "@/components/ViewTogglePosts";
 import AdSlot from "@/components/AdSlot";
 import { getAllPosts } from "@/lib/posts";
 import { siteConfig } from "@/lib/site-config";
@@ -24,10 +24,8 @@ export default function Home() {
       </section>
 
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_280px]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 content-start">
-          {posts.map((post) => (
-            <PostCard key={post.slug} post={post} />
-          ))}
+        <div>
+          <ViewTogglePosts posts={posts} />
         </div>
 
         <aside className="hidden lg:block">
